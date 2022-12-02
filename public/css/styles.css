@@ -18,29 +18,24 @@ body{
 	display: block;
 	max-width: 480px;
 	overflow: hidden;
-	-webkit-transform: translate(-50%, -50%);
-	-ms-transform: translate(-50%, -50%);
 	transform: translate(-50%, -50%);
 	padding: 2em;
 	position: absolute;
-		top: 50%;
-		left: 50%;
-		z-index: 1;
+	top: 50%;
+	left: 50%;
+	z-index: 1;
 	width: 98%;
 }
 .container:before{
 	background: url('http://tfgms.com/sandbox/dailyui/bg-1.jpg') center no-repeat;
 	background-size: cover;
 	content: '';
-	-webkit-filter: blur(10px);
 	filter: blur(10px);
 	height: 100vh;
 	position: absolute;
-		top: 50%;
-		left: 50%;
-		z-index: -1;
-	-webkit-transform: translate(-50%, -50%);
-	-ms-transform: translate(-50%, -50%);
+	top: 50%;
+	left: 50%;
+	z-index: -1;
 	transform: translate(-50%, -50%);
 	width: 100vw;
 }
@@ -50,9 +45,9 @@ body{
 	display: block;
 	height: 100%;
 	position: absolute;
-		top: 0;
-		left: 0;
-		z-index: -1;
+	top: 0;
+	left: 0;
+	z-index: -1;
 	width: 100%;
 }
 form button.submit{
@@ -70,29 +65,6 @@ form button.loading{
 	background: #333;
 	color: #fff;
 	outline: none;
-}
-form button.success{
-	background: #27ae60;
-	border-color: #27ae60; 
-	color: #fff;
-}
-@-webkit-keyframes spin{
-	from{ transform: rotate(0deg); }
-	to{ transform: rotate(360deg); }
-}
-@keyframes spin{
-	from{ transform: rotate(0deg); }
-	to{ transform: rotate(360deg); }
-}
-form button span.loading-spinner{
-	-webkit-animation: spin 0.5s linear infinite;
-	animation: spin 0.5s linear infinite;
-	border: 2px solid #fff;
-	border-top-color: transparent;
-	border-radius: 50%;
-	display: inline-block;
-	height: 1em;
-	width: 1em;
 }
 
 form label{
@@ -122,9 +94,7 @@ form label input{
 form label input:focus{
 	outline: none;
 }
-form label input:-webkit-autofill{
-	background-color: transparent !important;
-}
+
 form label span.label-text{
 	display: block;
 	font-size: 0.5em;
@@ -134,9 +104,6 @@ form label span.label-text{
 	-webkit-transition: all 0.25s;
 	transition: all 0.25s;
 }
-
-form label.invalid{border-color: #c0392b !important;}
-form label.invalid span.label-text{color: #c0392b;}
 
 h1{
 	font-size: 3em;
