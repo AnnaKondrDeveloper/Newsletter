@@ -1,8 +1,8 @@
 # Newsletter Signup
-A simple newsletter signup page to allow users to add themselves in the mailing list to receive monthly emails on new tech.
+A simple newsletter signup page to allow users to add themselves in the mailing list to receive weekly emails on new tech.
 
 <h2>Idea</h2>
-Sending monthly emails to the users who have signed up for the newsletter to send them news and updates on new tools and technologies
+Sending weekly emails to the users who have signed up for the newsletter to send them news and updates on new tools and technologies
 Using Mailchimp services to store and manage the emails of the users along with other details
 
 <h2>Tools Used</h2>
@@ -20,7 +20,7 @@ Used the Mailchimp's API
 
 <h2>After sign up</h2>
 User's data gets added on the mailchimp's server.<br>
-The data can be used to send monthly emails
+The data can be used to send weekly emails
 
 <h2>Check out the application</h2>
 Find the application runnning => https://rocky-tundra-35654.herokuapp.com/
