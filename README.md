@@ -28,8 +28,10 @@ Find the application runnning => https://rocky-tundra-35654.herokuapp.com/
 <h2>Screenshots</h2>
 <br>
 
-![image](https://github.com/AnnaKondrDeveloper/Puls/raw/main/img/homepage.png)
+![image](https://github.com/AnnaKondrDeveloper/newsletter/raw/main/images/homepage.jpg)
+![image](https://github.com/AnnaKondrDeveloper/newsletter/raw/main/images/success.jpg)
+![image](https://github.com/AnnaKondrDeveloper/newsletter/raw/main/images/failure.jpg)
 
 <h3>Mobile responsive disign</h3>
 
-![image](https://github.com/AnnaKondrDeveloper/Puls/raw/main/img/mobile.png)
+![image](https://github.com/AnnaKondrDeveloper/newsletter/raw/main/images/mobile.jpg)
